@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable public class HanabiCollectionViewLayout: UICollectionViewLayout {
     @IBInspectable public var standartHeight: CGFloat = 220.0
     @IBInspectable public var focusedHeight: CGFloat = 380.0
-    @IBInspectable public var dragOffset: CGFloat = 180.0
+    @IBInspectable public var dragOffset: CGFloat = 130.0
     @IBInspectable public var firstCellSlantingEnabled: Bool = false
     @IBInspectable public var lastCellSlantingEnabled: Bool = false
     @IBInspectable public var reverseSlantingAngle: Bool = false
@@ -134,7 +134,7 @@ import UIKit
                 height = focusedHeight
             } else if indexPath.item == (currentFocusedIndex + 1) && indexPath.item != itemsCount {
                 height = standartHeight + max((focusedHeight - standartHeight) * nextItemOffset, 0)
-                
+                y = y + standartHeight - height
 
             } else {
                 y = frame.origin.y + frame.height + lineSpacing - CGFloat(slantingDelta)
