@@ -7,7 +7,8 @@
 //
 
 import UIKit
+import HanabiCollectionViewLayout
 
-class ContentCollectionViewCell: UICollectionViewCell {
+class ContentCollectionViewCell: HanabiCollectionViewCell {
   @IBOutlet weak var imageView: UIImageView?
 }

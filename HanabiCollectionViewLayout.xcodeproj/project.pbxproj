@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10E705D1D87BC05007E39C1 /* HanabiCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E705C1D87BC05007E39C1 /* HanabiCollectionViewLayoutAttributes.swift */; };
+		E10E705F1D87BCD8007E39C1 /* HanabiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E705E1D87BCD8007E39C1 /* HanabiCollectionViewCell.swift */; };
 		FA9E7B931C91922600680209 /* HanabiCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9E7B901C91922600680209 /* HanabiCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA9E7B941C91922600680209 /* HanabiCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E7B911C91922600680209 /* HanabiCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E10E705C1D87BC05007E39C1 /* HanabiCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanabiCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		E10E705E1D87BCD8007E39C1 /* HanabiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanabiCollectionViewCell.swift; sourceTree = "<group>"; };
 		FA57950D1C918F4A00C01B55 /* HanabiCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HanabiCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9E7B901C91922600680209 /* HanabiCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanabiCollectionViewLayout.h; sourceTree = "<group>"; };
 		FA9E7B911C91922600680209 /* HanabiCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanabiCollectionViewLayout.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 				FA9E7B901C91922600680209 /* HanabiCollectionViewLayout.h */,
 				FA9E7B911C91922600680209 /* HanabiCollectionViewLayout.swift */,
 				FA9E7B921C91922600680209 /* Info.plist */,
+				E10E705C1D87BC05007E39C1 /* HanabiCollectionViewLayoutAttributes.swift */,
+				E10E705E1D87BCD8007E39C1 /* HanabiCollectionViewCell.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -133,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10E705F1D87BCD8007E39C1 /* HanabiCollectionViewCell.swift in Sources */,
+				E10E705D1D87BC05007E39C1 /* HanabiCollectionViewLayoutAttributes.swift in Sources */,
 				FA9E7B941C91922600680209 /* HanabiCollectionViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
